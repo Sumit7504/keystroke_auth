@@ -1,0 +1,7 @@
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+.\.venv\Scripts\Activate.ps1
+python -m pip install joblib numpy scikit-learn pynput
+
+python keystroke_auth/gui_auth_app.py
